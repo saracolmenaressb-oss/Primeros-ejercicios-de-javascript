@@ -1,0 +1,43 @@
+{
+    "personas": [
+      {
+        "id": 1,
+        "nombre": "Juan Pérez",
+        "edad": 30,
+        "correo": "juan.perez@email.com",
+        "telefono": "+57 3001234567",
+        "direccion": {
+          "ciudad": "Bogotá",
+          "pais": "Colombia"
+        },
+        "habilidades": ["JavaScript", "Python", "SQL"],
+        "activo": true
+      },
+      {
+        "id": 2,
+        "nombre": "María Gómez",
+        "edad": 25,
+        "correo": "maria.gomez@email.com",
+        "telefono": "+57 3019876543",
+        "direccion": {
+          "ciudad": "Medellín",
+          "pais": "Colombia"
+        },
+        "habilidades": ["Java", "C#", "HTML"],
+        "activo": false
+      },
+      {
+        "id": 3,
+        "nombre": "Carlos Rodríguez",
+        "edad": 35,
+        "correo": "carlos.rodriguez@email.com",
+        "telefono": "+57 3024567890",
+        "direccion": {
+          "ciudad": "Cali",
+          "pais": "Colombia"
+        },
+        "habilidades": ["Go", "Rust", "Docker"],
+        "activo": true
+      }
+    ]
+  }
