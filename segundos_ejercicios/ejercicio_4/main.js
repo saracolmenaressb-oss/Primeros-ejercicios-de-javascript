@@ -10,4 +10,4 @@ const persona = {
     }
 };
 
-console.log(persona.direccion.ciudad);
+console.log(persona.direccion.ciudad);s
