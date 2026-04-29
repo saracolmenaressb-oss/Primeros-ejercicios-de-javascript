@@ -4,11 +4,10 @@ const myPromise =new Promise((resolve,reject)=>{
 const myPromise2 =new Promise((resolve,reject)=>{
     setTimeout(()=>reject("Promesa 1 rechazada"),500)
 });
-Promise.race([myPromise,myPromise2])
+Promise.all([myPromise,myPromise2])
 .then((res)=>{
-    console.log("La primera promesa en completarse es:",res)
+    console.log("Todas las promesas aceptadas",res)
 })
 .catch((error)=>{
-    console.log("la primera promesa en ser rechazada")
+    console.log("Por lo menos una fue rechazada",error)
 })
-

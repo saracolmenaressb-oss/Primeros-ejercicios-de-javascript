@@ -1,0 +1,45 @@
+{
+    "usuario": {
+      "id": 1,
+      "nombre": "Juan Pérez",
+      "edad": 30,
+      "email": "juan.perez@email.com",
+      "activo": true
+    },
+    "direccion": {
+      "calle": "Calle 45",
+      "numero": 123,
+      "ciudad": "Bucaramanga",
+      "pais": "Colombia",
+      "codigo_postal": "680001"
+    },
+    "telefonos": [
+      {
+        "tipo": "móvil",
+        "numero": "+57 300 123 4567"
+      },
+      {
+        "tipo": "casa",
+        "numero": "+57 607 123 4567"
+      }
+    ],
+    "intereses": [
+      "tecnología",
+      "deportes",
+      "música"
+    ],
+    "historial_compras": [
+      {
+        "id_compra": 1001,
+        "producto": "Laptop",
+        "precio": 2500.50,
+        "fecha": "2026-01-15"
+      },
+      {
+        "id_compra": 1002,
+        "producto": "Audífonos",
+        "precio": 150.75,
+        "fecha": "2026-02-10"
+      }
+    ]
+  }
