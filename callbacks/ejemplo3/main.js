@@ -12,4 +12,4 @@ tareaNoBloqueante(function(){
     console.log("Aegumento de la funcion no bloqueante")
     console.log("continuando con el resto del programa")
 })
-console.log("fib del programa")
+console.log("fin del programa")
